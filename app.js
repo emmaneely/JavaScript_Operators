@@ -6,8 +6,17 @@ console.log(
 // Exercise 1
 console.log("EXERCISE 1:\n==========\n");
 
-// YOUR CODE HERE
-
+let a = 20;
+let b = 4;
+let add = a + b;
+  console.log(add);
+let minus = a - b;
+  console.log(minus);
+let multiply = a * b;
+  console.log(multiply);
+let dividing = a / b;
+  console.log(dividing);
+  
 // Exercise 2
 console.log("EXERCISE 2:\n==========\n");
 
