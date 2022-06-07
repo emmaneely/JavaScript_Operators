@@ -27,37 +27,70 @@ let isPresent = true;
 let firstName = "Frodo";
 let lastName = "Baggins";
 
-let numstr = num + str;
-  console.log(numstr);
+console.log (num + str);
   // What is the value of: num + str?
   // Answer: 1111
 
-let numstr2 = num + str2;
-  console.log(numstr2);
+console.log(num + str2);
   // What is the value of: num + str2?
   // Answer: 11eleven
 
-let numIsPresent = num + isPresent;
-  console.log(numIsPresent);
+console.log(num + isPresent);
   // What is the value of: num + isPresent?
   // Answer: 12
 
-let firstNameNum = firstName + num;
-  console.log(firstNameNum);
+console.log(firstName + num);
   // What is the value of: firstName + num?
   // Answer: Frodo11
 
-let isPresentStr= isPresent + str;
-  console.log(isPresentStr);
+console.log(isPresent + str);
   // What is the value of: isPresent + str?
   // Answer: true11
 
-let firstNameLastName = firstName + lastName;
-  console.log(firstNameLastName);
+console.log(firstName + lastName);
   // What is the value of: firstName + lastName?
   // Answer: FrodoBaggins
 
 // Exercise 3
 console.log("EXERCISE 3:\n==========\n");
 
-// YOUR CODE HERE
+let val = 5;
+str = "5";
+str2 = "five";
+isPresent = false;
+
+console.log (val == str);
+  // What is the value of: val == str?
+  // Answer: true
+
+console.log(val === str);
+  // What is the value of: val === str?
+  // Answer: false
+
+console.log(!isPresent);
+  // What is the value of: !isPresent?
+  // Answer: true
+
+console.log("eleven" == str2 && val >= str);
+  // What is the value of: (“eleven” == str2 && val >= str)?
+  // Answer: false
+
+console.log(!isPresent || isPresent);
+  // What is the value of: (!isPresent || isPresent)?
+  // Answer: true
+
+console.log(0 == false);
+  // What is the value of: 0 == false?
+  // Answer: true
+
+console.log(0 === false);
+  // What is the value of: 0 === false?
+  // Answer: false
+
+console.log(0 != false);
+  // What is the value of: 0 != false?
+  // Answer: false
+
+console.log(0 !== false);
+  // What is the value of 0 !== false?
+  // Answer: true
